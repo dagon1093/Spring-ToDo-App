@@ -1,9 +1,12 @@
 package org.springproject.todo.model;
 
+import lombok.*;
+
 import java.util.Date;
 import java.util.List;
 
-
+@Data
+@NoArgsConstructor
 public class Goal {
 //   остановился на long для поля id
     private long id;

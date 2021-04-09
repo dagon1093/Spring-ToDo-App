@@ -1,8 +1,12 @@
 package org.springproject.todo.dto;
 
+import lombok.*;
+
 import java.util.Date;
 import java.util.List;
 
+@Data
+@NoArgsConstructor
 public class GoalDTO {
 
     private long id;
