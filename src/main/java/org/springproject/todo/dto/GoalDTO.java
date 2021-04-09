@@ -1,16 +1,12 @@
-package org.springproject.todo.model;
+package org.springproject.todo.dto;
 
 import java.util.Date;
 import java.util.List;
 
-
-public class Goal {
+public class GoalDTO {
 
     private long id;
     private String name;
-    private boolean isDone;
-    private Date creationDate;
-    private Date modificationDate;
     private List<String> tags;
     private Date deadLine;
     private byte priority;

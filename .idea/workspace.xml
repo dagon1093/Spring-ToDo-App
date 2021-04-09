@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Создан проект.&#10;Откорректирован .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/dto/GoalDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
