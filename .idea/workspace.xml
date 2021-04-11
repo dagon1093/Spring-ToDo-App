@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Создан проект.&#10;Откорректирован .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/mapping/EntityDtoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/dto/GoalDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/dto/GoalDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/mapping/Mapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/todo.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
