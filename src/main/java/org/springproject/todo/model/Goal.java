@@ -16,6 +16,6 @@ public class Goal {
     private Date modificationDate;
     private List<String> tags;
     private Date deadLine;
-    private byte priority;
+    private Priority priority;
 
 }
