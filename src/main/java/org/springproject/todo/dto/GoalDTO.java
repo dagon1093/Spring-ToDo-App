@@ -1,6 +1,7 @@
 package org.springproject.todo.dto;
 
 import lombok.*;
+import org.springproject.todo.model.Priority;
 
 import java.util.Date;
 import java.util.List;
@@ -11,10 +12,10 @@ import java.util.List;
 @NoArgsConstructor
 public class GoalDTO {
 
-    private long id;
+    private Long id;
     private String name;
-    private List<String> tags;
+//    private List<String> tags;
     private Date deadLine;
-    private byte priority;
+    private Priority priority;
 
 }

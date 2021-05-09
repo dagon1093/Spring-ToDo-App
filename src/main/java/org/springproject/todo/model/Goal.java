@@ -2,19 +2,27 @@ package org.springproject.todo.model;
 
 import lombok.*;
 
+import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
 @NoArgsConstructor
+@Table
+@Entity(name = "Goal")
+@ToString
 public class Goal {
-//   остановился на long для поля id
-    private long id;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String name;
     private boolean isDone;
     private Date creationDate;
     private Date modificationDate;
-    private List<String> tags;
+//    private List<String> tags;
     private Date deadLine;
     private Priority priority;
 

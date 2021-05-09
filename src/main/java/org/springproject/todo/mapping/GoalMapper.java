@@ -6,6 +6,6 @@ import org.springproject.todo.model.Goal;
 
 @Mapper(componentModel = "spring")
 public interface GoalMapper {
-    Goal entityToDto(GoalDTO dto);
-    GoalDTO dtoToEntity(Goal entity);
+    Goal GoalToDto(GoalDTO dto);
+    GoalDTO GoalToEntity(Goal entity);
 }

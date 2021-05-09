@@ -4,6 +4,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springproject.todo.model.Goal;
+import org.springproject.todo.model.Priority;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -21,33 +22,33 @@ public class GoalController {
     }
 
 //  Заглушка
-    public Goal getGoal(long id){
+    public Goal getGoal(Long id){
         return new Goal();
     }
 
 //  Заглушка
-    public Goal createGoal(String name, ArrayList<String> tags, Date deadLine, byte priority){
+    public Goal createGoal(String name, /*ArrayList<String> tags ,*/ Date deadLine, Priority priority){
         Goal goal = new Goal();
         goal.setName(name);
-        goal.setTags(tags);
+//        goal.setTags(tags);
         goal.setDeadLine(deadLine);
         goal.setPriority(priority);
         return goal;
     }
 
 //    Заглушка
-    public void changeGoal(long id,
+    public void changeGoal(Long id,
                            @Nullable String name,
-                           @Nullable List<String> tags,
+//                           @Nullable List<String> tags,
                            @Nullable Date deadLine,
-                           @Nullable Byte priority){
+                           @Nullable Priority priority){
         if (name!=null) getGoal(id).setName(name);
-        if (tags!=null) getGoal(id).setTags(tags);
+//        if (tags!=null) getGoal(id).setTags(tags);
         if (deadLine!=null) getGoal(id).setDeadLine(deadLine);
         if (priority!=null) getGoal(id).setPriority(priority);
     }
 
-    public void deleteGoal(long id){
+    public void deleteGoal(Long id){
 //        Удалить цель
     }
 
