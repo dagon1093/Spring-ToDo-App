@@ -27,10 +27,10 @@ public class GoalController {
     }
 
 //  Заглушка
-    public Goal createGoal(String name, /*ArrayList<String> tags ,*/ Date deadLine, Priority priority){
+    public Goal createGoal(String name, ArrayList<String> tags , Date deadLine, Priority priority){
         Goal goal = new Goal();
         goal.setName(name);
-//        goal.setTags(tags);
+        goal.setTags(tags);
         goal.setDeadLine(deadLine);
         goal.setPriority(priority);
         return goal;
@@ -39,18 +39,17 @@ public class GoalController {
 //    Заглушка
     public void changeGoal(Long id,
                            @Nullable String name,
-//                           @Nullable List<String> tags,
+                           @Nullable List<String> tags,
                            @Nullable Date deadLine,
                            @Nullable Priority priority){
         if (name!=null) getGoal(id).setName(name);
-//        if (tags!=null) getGoal(id).setTags(tags);
+        if (tags!=null) getGoal(id).setTags(tags);
         if (deadLine!=null) getGoal(id).setDeadLine(deadLine);
         if (priority!=null) getGoal(id).setPriority(priority);
     }
 
     public void deleteGoal(Long id){
-//        Удалить цель
-    }
 
+    }
 
 }

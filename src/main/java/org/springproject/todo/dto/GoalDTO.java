@@ -14,7 +14,7 @@ public class GoalDTO {
 
     private Long id;
     private String name;
-//    private List<String> tags;
+    private List<String> tags;
     private Date deadLine;
     private Priority priority;
 

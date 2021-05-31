@@ -22,7 +22,8 @@ public class Goal {
     private boolean isDone;
     private Date creationDate;
     private Date modificationDate;
-//    private List<String> tags;
+    @ElementCollection
+    private List<String> tags;
     private Date deadLine;
     private Priority priority;
 
