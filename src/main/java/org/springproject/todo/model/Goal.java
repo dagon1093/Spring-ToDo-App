@@ -27,4 +27,5 @@ public class Goal {
     private Date deadLine;
     private Priority priority;
 
+
 }

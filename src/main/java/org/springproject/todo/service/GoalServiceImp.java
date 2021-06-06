@@ -40,4 +40,11 @@ public class GoalServiceImp implements GoalService{
     public void deleteGoal(Long id) {
         repository.deleteById(id);
     }
+
+
+ /* Test method */
+
+    public String getHome(){
+        return "Home page";
+    }
 }
