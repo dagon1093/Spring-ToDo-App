@@ -16,6 +16,7 @@ public class TodoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TodoApplication.class, args);
 
+		System.out.println("test");
 //		GoalServiceImp serviceImp = new GoalServiceImp();
 //
 //		Goal goal = new Goal();
