@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Создан проект.&#10;Откорректирован .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/springproject/todo/HttpRequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/springproject/todo/mock/WebMockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/TodoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/TodoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/springproject/todo/TodoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/springproject/todo/TodoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/todo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/repository/GoalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/repository/GoalRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +62,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -86,7 +75,7 @@
       <recent name="org.springproject.todo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebMockTest">
+  <component name="RunManager" selected="Application.TodoApplication">
     <configuration name="TodoApplication" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
