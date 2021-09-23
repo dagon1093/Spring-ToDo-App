@@ -3,6 +3,7 @@ package org.springproject.todo.model;
 import lombok.*;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -20,11 +21,11 @@ public class Goal {
     private Long id;
     private String name;
     private boolean isDone;
-    private Date creationDate;
-    private Date modificationDate;
+    private LocalDate creationDate;
+    private LocalDate modificationDate;
     @ElementCollection
     private List<String> tags;
-    private Date deadLine;
+    private LocalDate deadLine;
     private Priority priority;
 
 

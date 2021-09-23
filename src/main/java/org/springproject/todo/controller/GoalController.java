@@ -10,6 +10,7 @@ import org.springproject.todo.model.Priority;
 import org.springproject.todo.service.GoalServiceImp;
 
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -34,9 +35,10 @@ public class GoalController {
         return service.getGoal(id);
     }
 
-
-    public Goal createGoal(){
+    @RequestMapping("/creategoal")
+    public @ResponseBody Goal createGoal(){
         Goal goal = new Goal();
+        goal.setCreationDate(LocalDate.now());
         service.createGoal(goal);
         return goal;
     }
@@ -44,7 +46,7 @@ public class GoalController {
     public void changeGoal(Long id,
                            @Nullable String name,
                            @Nullable List<String> tags,
-                           @Nullable Date deadLine,
+                           @Nullable LocalDate deadLine,
                            @Nullable Priority priority){
         Goal goal = getGoal(id);
         if (name!=null) goal.setName(name);
