@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Создан проект.&#10;Откорректирован .gitignore">
+    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Тип Date в сущности Goal заменен на LocalDate. При создании автоматически проставляется текущая дата. Close #15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,12 +187,32 @@
       <option name="project" value="LOCAL" />
       <updated>1617967310030</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Тип Date в сущности Goal заменен на LocalDate. При создании автоматически проставляется текущая дата. Close #15">
+      <created>1632436370788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632436370788</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создан проект.&#10;Откорректирован .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан проект.&#10;Откорректирован .gitignore" />
+    <MESSAGE value="Тип Date в сущности Goal заменен на LocalDate. При создании автоматически проставляется текущая дата. Close #15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тип Date в сущности Goal заменен на LocalDate. При создании автоматически проставляется текущая дата. Close #15" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
