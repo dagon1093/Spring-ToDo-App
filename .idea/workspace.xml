@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Подключен flyway. Close #12">
+    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Заменены имлементации сервиса на интерфейсы в контроллере. Close #18">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/Goal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633717243045</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Заменены имлементации сервиса на интерфейсы в контроллере. Close #18">
+      <created>1633717666342</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633717666342</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +254,8 @@
     <MESSAGE value="Аннотации Controller заменены на RestController. Убраны аннотации ResponseBody. Close #17" />
     <MESSAGE value="Аннотация RequestMapping заменена на GetMapping. Close #16" />
     <MESSAGE value="Подключен flyway. Close #12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подключен flyway. Close #12" />
+    <MESSAGE value="Заменены имлементации сервиса на интерфейсы в контроллере. Close #18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Заменены имлементации сервиса на интерфейсы в контроллере. Close #18" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
