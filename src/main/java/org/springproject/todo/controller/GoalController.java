@@ -5,6 +5,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import org.springproject.todo.model.Goal;
 import org.springproject.todo.model.Priority;
 import org.springproject.todo.service.GoalServiceImp;
@@ -14,7 +15,7 @@ import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
-@Controller
+@RestController
 public class GoalController {
 
     @Autowired
@@ -26,7 +27,7 @@ public class GoalController {
 
 
     @RequestMapping("/goals")
-    public @ResponseBody List<Goal> getGoals(){
+    public List<Goal> getGoals(){
         return service.getGoals();
     }
 
@@ -36,7 +37,7 @@ public class GoalController {
     }
 
     @RequestMapping("/creategoal")
-    public @ResponseBody Goal createGoal(){
+    public Goal createGoal(){
         Goal goal = new Goal();
         goal.setCreationDate(LocalDate.now());
         service.createGoal(goal);

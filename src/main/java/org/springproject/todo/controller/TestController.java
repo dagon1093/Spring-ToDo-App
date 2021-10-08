@@ -6,12 +6,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import org.springproject.todo.model.Goal;
 import org.springproject.todo.service.GoalServiceImp;
 
 //Контроллер для экспериментов
 @RequestMapping("/test")
-@Controller
+@RestController
 public class TestController {
 
 
@@ -24,12 +25,12 @@ public class TestController {
 
 // Сопоставление тестовых запросов
     @RequestMapping({"/",""})
-    public @ResponseBody String homePage(){
+    public String homePage(){
         return service.getHome();
     }
 
     @RequestMapping("/creategoal")
-    public @ResponseBody String createGoal(){
+    public String createGoal(){
         Goal goal = new Goal();
         goal.setName("Cover the code with tests");
         service.createGoal(goal);
