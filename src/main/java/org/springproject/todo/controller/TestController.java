@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springproject.todo.model.Goal;
+import org.springproject.todo.service.GoalService;
 import org.springproject.todo.service.GoalServiceImp;
 
 //Контроллер для экспериментов
@@ -13,18 +14,13 @@ import org.springproject.todo.service.GoalServiceImp;
 public class TestController {
 
 
-    @Autowired
-    private final GoalServiceImp service;
+    private final GoalService service;
 
     public TestController(GoalServiceImp service){
         this.service = service;
     }
 
 // Сопоставление тестовых запросов
-    @GetMapping({"/",""})
-    public String homePage(){
-        return service.getHome();
-    }
 
     @GetMapping("/creategoal")
     public String createGoal(){

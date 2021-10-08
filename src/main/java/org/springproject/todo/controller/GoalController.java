@@ -2,25 +2,21 @@ package org.springproject.todo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springproject.todo.model.Goal;
 import org.springproject.todo.model.Priority;
+import org.springproject.todo.service.GoalService;
 import org.springproject.todo.service.GoalServiceImp;
 
 
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
 
 @RestController
 public class GoalController {
 
-    @Autowired
-    private final GoalServiceImp service;
+    private final GoalService service;
 
     public GoalController(GoalServiceImp service){
         this.service = service;

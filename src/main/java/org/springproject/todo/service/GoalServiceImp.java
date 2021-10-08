@@ -42,9 +42,4 @@ public class GoalServiceImp implements GoalService{
     }
 
 
- /* Test method */
-
-    public String getHome(){
-        return "Home page";
-    }
 }
