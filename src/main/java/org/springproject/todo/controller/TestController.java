@@ -3,10 +3,7 @@ package org.springproject.todo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springproject.todo.model.Goal;
 import org.springproject.todo.service.GoalServiceImp;
 
@@ -24,12 +21,12 @@ public class TestController {
     }
 
 // Сопоставление тестовых запросов
-    @RequestMapping({"/",""})
+    @GetMapping({"/",""})
     public String homePage(){
         return service.getHome();
     }
 
-    @RequestMapping("/creategoal")
+    @GetMapping("/creategoal")
     public String createGoal(){
         Goal goal = new Goal();
         goal.setName("Cover the code with tests");

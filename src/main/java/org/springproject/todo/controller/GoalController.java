@@ -3,6 +3,7 @@ package org.springproject.todo.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,7 +27,7 @@ public class GoalController {
     }
 
 
-    @RequestMapping("/goals")
+    @GetMapping("/goals")
     public List<Goal> getGoals(){
         return service.getGoals();
     }
@@ -36,7 +37,7 @@ public class GoalController {
         return service.getGoal(id);
     }
 
-    @RequestMapping("/creategoal")
+    @GetMapping("/creategoal")
     public Goal createGoal(){
         Goal goal = new Goal();
         goal.setCreationDate(LocalDate.now());

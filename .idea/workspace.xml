@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Убраны public abstract из интерфейса GoalService. Close #23">
+    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Аннотации Controller заменены на RestController. Убраны аннотации ResponseBody. Close #17">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633708118819</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Аннотации Controller заменены на RestController. Убраны аннотации ResponseBody. Close #17">
+      <created>1633708657843</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633708657843</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +227,8 @@
     <MESSAGE value="Создан проект.&#10;Откорректирован .gitignore" />
     <MESSAGE value="Тип Date в сущности Goal заменен на LocalDate. При создании автоматически проставляется текущая дата. Close #15" />
     <MESSAGE value="Убраны public abstract из интерфейса GoalService. Close #23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Убраны public abstract из интерфейса GoalService. Close #23" />
+    <MESSAGE value="Аннотации Controller заменены на RestController. Убраны аннотации ResponseBody. Close #17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Аннотации Controller заменены на RestController. Убраны аннотации ResponseBody. Close #17" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
