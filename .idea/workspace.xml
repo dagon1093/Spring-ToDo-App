@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Исправлены названия методов в GoalMapper. Close #22">
+    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="changeGoal заменен на updateGoal, входящий параметр заменен на GoalDTO. Close #19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/TodoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/TodoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/mapping/GoalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/mapping/GoalMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633718889919</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changeGoal заменен на updateGoal, входящий параметр заменен на GoalDTO. Close #19">
+      <created>1633720125654</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633720125654</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +284,8 @@
     <MESSAGE value="Подключен flyway. Close #12" />
     <MESSAGE value="Заменены имлементации сервиса на интерфейсы в контроллере. Close #18" />
     <MESSAGE value="Исправлены названия методов в GoalMapper. Close #22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлены названия методов в GoalMapper. Close #22" />
+    <MESSAGE value="changeGoal заменен на updateGoal, входящий параметр заменен на GoalDTO. Close #19" />
+    <option name="LAST_COMMIT_MESSAGE" value="changeGoal заменен на updateGoal, входящий параметр заменен на GoalDTO. Close #19" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

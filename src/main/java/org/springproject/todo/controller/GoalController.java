@@ -2,7 +2,9 @@ package org.springproject.todo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springproject.todo.dto.GoalDTO;
 import org.springproject.todo.model.Goal;
@@ -46,7 +48,8 @@ public class GoalController {
         service.updateGoal(goal.getId(), goal);
     }
 
-    public void deleteGoal(Long id){
+    @DeleteMapping("/goals/{id}")
+    public void deleteGoal(@PathVariable Long id){
         service.deleteGoal(id);
     }
 

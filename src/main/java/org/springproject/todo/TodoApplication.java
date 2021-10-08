@@ -19,8 +19,6 @@ public class TodoApplication {
 
 
 		GoalServiceImp goalServiceImp = ctx.getBean(GoalServiceImp.class);
-//		System.out.println("test");
-//		GoalServiceImp serviceImp = new GoalServiceImp();
 
 		Goal goal = new Goal();
 		goal.setName("Cover the code with tests -------- 2 ----------");

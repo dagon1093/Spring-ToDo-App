@@ -1,8 +1,6 @@
 package org.springproject.todo.controller;
 
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springproject.todo.model.Goal;
 import org.springproject.todo.service.GoalService;
