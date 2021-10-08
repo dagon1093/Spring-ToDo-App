@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springproject.todo.dto.GoalDTO;
 import org.springproject.todo.model.Goal;
 import org.springproject.todo.model.Priority;
 import org.springproject.todo.service.GoalService;
@@ -41,17 +42,8 @@ public class GoalController {
         return goal;
     }
 
-    public void changeGoal(Long id,
-                           @Nullable String name,
-                           @Nullable List<String> tags,
-                           @Nullable LocalDate deadLine,
-                           @Nullable Priority priority){
-        Goal goal = getGoal(id);
-        if (name!=null) goal.setName(name);
-        if (tags!=null) goal.setTags(tags);
-        if (deadLine!=null) goal.setDeadLine(deadLine);
-        if (priority!=null) goal.setPriority(priority);
-        service.updateGoal(id, goal);
+    public void updateGoal(GoalDTO goal){
+        service.updateGoal(goal.getId(), goal);
     }
 
     public void deleteGoal(Long id){

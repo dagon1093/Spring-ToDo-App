@@ -2,6 +2,8 @@ package org.springproject.todo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springproject.todo.dto.GoalDTO;
+import org.springproject.todo.mapping.GoalMapper;
 import org.springproject.todo.model.Goal;
 import org.springproject.todo.repository.GoalRepository;
 
@@ -12,6 +14,7 @@ public class GoalServiceImp implements GoalService{
 
     @Autowired
     private GoalRepository repository;
+    private GoalMapper goalMapper;
 
     @Override
     public void createGoal(Goal goal){
@@ -26,8 +29,9 @@ public class GoalServiceImp implements GoalService{
     }
 
     @Override
-    public void updateGoal(Long id, Goal goal) {
-        repository.save(goal);
+    public void updateGoal(Long id, GoalDTO goal) {
+        Goal entityGoal = goalMapper.goalToEntity(goal);
+        repository.save(entityGoal);
     }
 
     @Override
