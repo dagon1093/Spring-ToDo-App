@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Аннотации Controller заменены на RestController. Убраны аннотации ResponseBody. Close #17">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" afterDir="false" />
+    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Аннотация RequestMapping заменена на GetMapping. Close #16">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/todo.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +73,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\Spring-ToDo-App\src\main\resources\db\migration" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.springproject.todo" />
     </key>
@@ -208,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633708657843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Аннотация RequestMapping заменена на GetMapping. Close #16">
+      <created>1633708883061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633708883061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +241,8 @@
     <MESSAGE value="Тип Date в сущности Goal заменен на LocalDate. При создании автоматически проставляется текущая дата. Close #15" />
     <MESSAGE value="Убраны public abstract из интерфейса GoalService. Close #23" />
     <MESSAGE value="Аннотации Controller заменены на RestController. Убраны аннотации ResponseBody. Close #17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Аннотации Controller заменены на RestController. Убраны аннотации ResponseBody. Close #17" />
+    <MESSAGE value="Аннотация RequestMapping заменена на GetMapping. Close #16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Аннотация RequestMapping заменена на GetMapping. Close #16" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
