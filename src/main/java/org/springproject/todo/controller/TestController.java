@@ -20,12 +20,5 @@ public class TestController {
 
 // Сопоставление тестовых запросов
 
-    @GetMapping("/creategoal")
-    public String createGoal(){
-        Goal goal = new Goal();
-        goal.setName("Cover the code with tests");
-        service.createGoal(goal);
-        return goal.toString();
-    }
 
 }

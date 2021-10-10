@@ -14,24 +14,25 @@ public class GoalServiceImp implements GoalService{
 
     @Autowired
     private GoalRepository repository;
-    private GoalMapper goalMapper;
 
     @Override
-    public void createGoal(Goal goal){
-        repository.save(goal);
+    public GoalDTO createGoal(GoalDTO goalDto){
+        Goal goalEntity = repository.save(GoalMapper.INSTANCE.goalToEntity(goalDto));
+        return GoalMapper.INSTANCE.goalToDto(goalEntity);
+
     }
 
     @Override
-    public ArrayList<Goal> getGoals() {
-        ArrayList<Goal> goals = new ArrayList<>();
-        repository.findAll().forEach(goals::add);
+    public ArrayList<GoalDTO> getGoals() {
+        ArrayList<GoalDTO> goals = new ArrayList<>();
+        for( Goal goal : repository.findAll()){goals.add(GoalMapper.INSTANCE.goalToDto(goal));}
         return goals;
     }
 
     @Override
-    public void updateGoal(Long id, GoalDTO goal) {
-        Goal entityGoal = goalMapper.goalToEntity(goal);
-        repository.save(entityGoal);
+    public GoalDTO updateGoal(GoalDTO goal) {
+        Goal entityGoal = repository.save(GoalMapper.INSTANCE.goalToEntity(goal));
+        return GoalMapper.INSTANCE.goalToDto(entityGoal);
     }
 
     @Override

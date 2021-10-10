@@ -1,19 +1,12 @@
 package org.springproject.todo.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.lang.Nullable;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+
+import org.springframework.web.bind.annotation.*;
 import org.springproject.todo.dto.GoalDTO;
 import org.springproject.todo.model.Goal;
-import org.springproject.todo.model.Priority;
 import org.springproject.todo.service.GoalService;
 import org.springproject.todo.service.GoalServiceImp;
 
-
-import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -27,25 +20,24 @@ public class GoalController {
 
 
     @GetMapping("/goals")
-    public List<Goal> getGoals(){
+    public List<GoalDTO> getGoals(){
         return service.getGoals();
     }
 
-
-    public Goal getGoal(Long id){
+    @GetMapping("/goals/{id}")
+    public Goal getGoal(@PathVariable Long id){
         return service.getGoal(id);
     }
 
-    @GetMapping("/creategoal")
-    public Goal createGoal(){
-        Goal goal = new Goal();
-        goal.setCreationDate(LocalDate.now());
+    @PostMapping("/goals")
+    public GoalDTO createGoal(GoalDTO goal){
         service.createGoal(goal);
         return goal;
     }
 
+    @PatchMapping
     public void updateGoal(GoalDTO goal){
-        service.updateGoal(goal.getId(), goal);
+        service.updateGoal(goal);
     }
 
     @DeleteMapping("/goals/{id}")

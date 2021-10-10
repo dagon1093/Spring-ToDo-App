@@ -3,7 +3,7 @@ package org.springproject.todo.dto;
 import lombok.*;
 import org.springproject.todo.model.Priority;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 @Getter
@@ -15,7 +15,7 @@ public class GoalDTO {
     private Long id;
     private String name;
     private List<String> tags;
-    private Date deadLine;
+    private LocalDate deadLine;
     private Priority priority;
 
 }

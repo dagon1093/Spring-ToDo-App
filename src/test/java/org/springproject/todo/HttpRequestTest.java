@@ -11,16 +11,16 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class HttpRequestTest {
 
-    @LocalServerPort
-    private int port;
-
-    @Autowired
-    private TestRestTemplate restTemplate;
-
-    @Test
-    public void homePageShouldReturnDefaultMessage() throws Exception {
-        Assertions.assertThat(this.restTemplate.getForObject("http://localhost:"+ port + "/", String.class))
-                .contains("Home page");
-    }
+//    @LocalServerPort
+//    private int port;
+//
+//    @Autowired
+//    private TestRestTemplate restTemplate;
+//
+//    @Test
+//    public void homePageShouldReturnDefaultMessage() throws Exception {
+//        Assertions.assertThat(this.restTemplate.getForObject("http://localhost:"+ port + "/", String.class))
+//                .contains("Home page");
+//    }
 
 }

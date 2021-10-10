@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="changeGoal заменен на updateGoal, входящий параметр заменен на GoalDTO. Close #19">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/TodoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/TodoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/GoalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/dto/GoalDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/dto/GoalDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/mapping/GoalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/mapping/GoalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/service/GoalServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/springproject/todo/HttpRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/springproject/todo/HttpRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/springproject/todo/TodoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/springproject/todo/TodoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/springproject/todo/mock/WebMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/springproject/todo/mock/WebMockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +75,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43777293" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />

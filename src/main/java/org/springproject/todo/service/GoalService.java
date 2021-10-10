@@ -7,10 +7,10 @@ import org.springproject.todo.model.Goal;
 import java.util.List;
 
 public interface GoalService {
-    void createGoal(Goal goal);
-    void updateGoal(Long id, GoalDTO goal);
+    GoalDTO createGoal(GoalDTO goal);
+    GoalDTO updateGoal(GoalDTO goal);
     void deleteGoal(Long id);
-    List<Goal> getGoals();
+    List<GoalDTO> getGoals();
     Goal getGoal(Long id);
 
 }
