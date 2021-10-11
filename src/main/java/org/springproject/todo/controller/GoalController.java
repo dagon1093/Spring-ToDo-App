@@ -25,19 +25,19 @@ public class GoalController {
     }
 
     @GetMapping("/goals/{id}")
-    public Goal getGoal(@PathVariable Long id){
+    public Goal getGoalById(@PathVariable Long id){
         return service.getGoal(id);
     }
 
     @PostMapping("/goals")
-    public GoalDTO createGoal(GoalDTO goal){
+    public GoalDTO createGoal(@RequestBody GoalDTO goal){
         service.createGoal(goal);
         return goal;
     }
 
-    @PatchMapping
-    public void updateGoal(GoalDTO goal){
-        service.updateGoal(goal);
+    @PatchMapping("/goals")
+    public GoalDTO updateGoal(@RequestBody GoalDTO goal){
+        return service.updateGoal(goal);
     }
 
     @DeleteMapping("/goals/{id}")
