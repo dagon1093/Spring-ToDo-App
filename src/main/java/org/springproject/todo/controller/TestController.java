@@ -2,7 +2,6 @@ package org.springproject.todo.controller;
 
 
 import org.springframework.web.bind.annotation.*;
-import org.springproject.todo.model.Goal;
 import org.springproject.todo.service.GoalService;
 import org.springproject.todo.service.GoalServiceImp;
 

@@ -5,7 +5,7 @@ import org.mapstruct.factory.Mappers;
 import org.springproject.todo.dto.GoalDTO;
 import org.springproject.todo.model.Goal;
 
-@Mapper(componentModel = "spring")
+@Mapper
 public interface GoalMapper {
 
     GoalMapper INSTANCE = Mappers.getMapper(GoalMapper.class);
