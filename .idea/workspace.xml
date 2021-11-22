@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="changeGoal заменен на updateGoal, входящий параметр заменен на GoalDTO. Close #19">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="076b3006-7f20-41c2-b04c-d5bd5c88102f" name="Default Changelist" comment="Добавлена сущность User. Close #27">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/TodoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/TodoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springproject/todo/mapping/GoalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springproject/todo/mapping/GoalMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633720125654</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавлена сущность User. Close #27">
+      <created>1636529066459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636529066459</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +290,8 @@
     <MESSAGE value="Заменены имлементации сервиса на интерфейсы в контроллере. Close #18" />
     <MESSAGE value="Исправлены названия методов в GoalMapper. Close #22" />
     <MESSAGE value="changeGoal заменен на updateGoal, входящий параметр заменен на GoalDTO. Close #19" />
-    <option name="LAST_COMMIT_MESSAGE" value="changeGoal заменен на updateGoal, входящий параметр заменен на GoalDTO. Close #19" />
+    <MESSAGE value="Добавлена сущность User. Close #27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена сущность User. Close #27" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
